@@ -1,0 +1,18 @@
+a{
+    color: var(--primarytxt);
+text-align: center;
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin: 0;
+text-decoration: none;
+transition: all 0.3s ease;
+cursor: pointer;
+}
+
+a:hover{
+    transform: scale(1.1);
+    font-weight: 600;
+}

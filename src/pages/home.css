@@ -1,0 +1,30 @@
+:root{
+    --background : #ffffff;
+    --darkicon: block;
+    --lighticon: none;
+    --btntxt: #ffffff;
+    --primarytxt: #364153;
+
+}
+
+
+.dark-theme{
+    --background : #1A1A1A;
+    --darkicon: none;
+    --lighticon: block;
+    --btntxt: #1E3A5F;
+    --primarytxt: #fff;
+
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}

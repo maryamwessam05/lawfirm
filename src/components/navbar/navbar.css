@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+padding: 16px 52px;
+justify-content: space-between;
+align-items: center;
+background: var(--background, #FFF);
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
+}
+
+.nav-links{
+    display: flex;
+align-items: center;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.mode{
+    cursor: pointer;
+}
+.light{
+    display: var(--lighticon);
+}
+
+.dark{
+    display: var(--darkicon);
+}
+
+.navbtns{
+    display: flex;
+
+justify-content: flex-end;
+align-items: center;
+gap: 16px;
+}
+
+.logod{
+    display: var(--lighticon);
+}
+
+.logol{
+    display: var(--darkicon);
+}
