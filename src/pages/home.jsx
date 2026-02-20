@@ -27,6 +27,11 @@ import team3 from "../assets/team03.png"
 import team4 from "../assets/team04.png"
 import Teamcard from '../components/teamcard/teamcard';
 import Input from '../components/input/input';
+import formlink1 from "../assets/formlink01.svg";
+import formlink2 from "../assets/formlink02.svg"
+import formlink3 from "../assets/formlink03.svg"
+import formlink4 from "../assets/formlink04.svg"
+import FormLink from '../components/formlink/formlink';
 
 
 
@@ -125,6 +130,15 @@ const Home = () => {
                         <Input label="Message " style="message" />
                         <Yellowbtn text="Submit" />
                     </form>
+                    <div className="linkloc">
+                        <div className="links">
+                            <FormLink img={formlink1} title="Address" subtitle="123 Justice Street, Legal District, NY 10001" />
+                            <FormLink img={formlink2} title="Phone" subtitle="+1 (555) 123-4567" />
+                            <FormLink img={formlink3} title="Email" subtitle="info@lawfirm.com" />
+                            <FormLink img={formlink4} title="Hours" subtitle="Mon-Fri: 9:00 AM - 6:00 PM" />
+                        </div>
+
+                    </div>
                 </div>
             </section>
 
