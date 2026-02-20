@@ -7,6 +7,10 @@ import Yellowbtn from '../components/yelowbtn/yellowbtn';
 import call from "../assets/call.svg"
 import Title from '../components/title/title';
 import sec2img from "../assets/sec2img.png"
+import AboutCard from '../components/aboutcard/aboutcard';
+import abt1 from "../assets/abt01.svg"
+import abt2 from "../assets/abt02.svg"
+import abt3 from "../assets/abt03.svg"
 
 
 const Home = () => {
@@ -53,6 +57,11 @@ const Home = () => {
                     <img src={sec2img} alt="sec2img" />
                     <div className="sec2imgtxt">
                         <p>Founded in 1999, our law firm has built a reputation for delivering exceptional legal services across multiple practice areas. Our team of experienced attorneys is dedicated to protecting your rights and achieving the best possible outcomes for our clients.</p>
+                        <div className="aboutcards">
+                            <AboutCard img={abt1} title="500+" desc="Awards Won" />
+                            <AboutCard img={abt2} title="5000+" desc="Happy Clients" />
+                            <AboutCard img={abt3} title="95%" desc="Success Rate" />
+                        </div>
                     </div>
                 </div>
             </section>
