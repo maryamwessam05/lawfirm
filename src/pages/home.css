@@ -208,3 +208,22 @@ align-self: stretch;
 flex-wrap: wrap;
 justify-content: center;
 }
+
+.section5{
+    display: flex;
+padding: 34px 0;
+justify-content: center;
+flex-direction: column;
+align-items: flex-start;
+gap: 48px;
+}
+
+.teamgrid{
+    display: flex;
+align-items: flex-start;
+align-content: flex-start;
+gap: 20px;
+align-self: stretch;
+flex-wrap: wrap;
+justify-content: center;
+}

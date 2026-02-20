@@ -21,6 +21,14 @@ import area4 from "../assets/area04.svg"
 import area5 from "../assets/area05.svg"
 import area6 from "../assets/area06.svg"
 import AreaCard from '../components/areacard/areacard';
+import team1 from "../assets/team01.png"
+import team2 from "../assets/team02.png"
+import team3 from "../assets/team03.png"
+import team4 from "../assets/team04.png"
+import Teamcard from '../components/teamcard/teamcard';
+
+
+
 
 const Home = () => {
     const [dark, setDark] = useState(
@@ -92,6 +100,19 @@ const Home = () => {
                     <AreaCard img={area6} title="Immigration Law" desc="Guidance for individuals navigating immigration processes and visa applications." />
                 </div>
             </section>
+
+            <section className="section5">
+                <Title subtitle="Meet Our Expert Attorneys" title="Our Legal Team" />
+
+                <div className="teamgrid">
+
+                    <Teamcard img={team1} name="John Doe" role="Senior Partner" />
+                    <Teamcard img={team2} name="Jane Smith" role="Associate Attorney" />
+                    <Teamcard img={team3} name="Michael Johnson" role="Litigation Specialist" />
+                    <Teamcard img={team4} name="Emily Davis" role="Corporate Law Expert" />
+                </div>
+            </section>
+
         
         </>
      );
