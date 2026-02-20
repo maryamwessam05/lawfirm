@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.miscard{
+    background: var(--miscardbg);
+    display: flex;
+    width: 438px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 16px;
+}
+.miscardy{
+background: linear-gradient(180deg, #C9A962 0%, #B89852 100%);
+
+    display: flex;
+    width: 438px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 16px;
+}
+.mistitle{
+    display: flex;
+padding-bottom: 7px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-bottom: 2px solid #C9A962;
+}
+.mistitley{
+    display: flex;
+padding-bottom: 7px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-bottom: 2px solid #fff;
+}
+.titlec{
+    color: #FFF;
+font-family: "Times New Roman";
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 120% */
+}
+
+.cardp{
+    color: #E5E7EB;
+font-family: Arial;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 111.111% */
+}

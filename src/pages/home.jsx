@@ -11,6 +11,9 @@ import AboutCard from '../components/aboutcard/aboutcard';
 import abt1 from "../assets/abt01.svg"
 import abt2 from "../assets/abt02.svg"
 import abt3 from "../assets/abt03.svg"
+import MissionCard from '../components/missioncard/missioncard';
+import vision from "../assets/vision.svg"
+import mission from "../assets/mission.svg" 
 
 
 const Home = () => {
@@ -64,6 +67,11 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section className="section3">
+                <MissionCard style="miscard" titleStyle="mistitle" img={mission} title="Mission" desc="To provide exceptional legal services with integrity, professionalism, and a commitment to achieving the best outcomes for our clients." />
+                <MissionCard style="miscardy" titleStyle="mistitley" img={vision} title="Vision" desc="To be the leading law firm known for excellence, innovation, and client satisfaction in the legal industry." />
             </section>
         
         </>

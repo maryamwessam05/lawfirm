@@ -5,6 +5,9 @@
     --btntxt: #ffffff;
     --primarytxt: #364153;
     --cardbg: #fff;
+    --miscardbg: linear-gradient(180deg, #1E3A5F 0%, #2D4A6F 100%);
+    --backgroundsec : #ffffff;
+
 
 }
 
@@ -16,6 +19,10 @@
     --btntxt: #1E3A5F;
     --primarytxt: #fff;
     --cardbg: #2a2a2a;
+    --miscardbg: linear-gradient(180deg, #1A1A1A 0%, #2A2A2A 100%);
+    --backgroundsec : #000000;
+
+;
 
 
 
@@ -171,3 +178,12 @@ align-items: center;
 gap: 24px;
 align-self: stretch;
 justify-content: center;}
+
+.section3{
+    background: var(--backgroundsec);
+    display: flex;
+padding: 96px 79px;
+justify-content: center;
+align-items: center;
+gap: 31px;
+}
