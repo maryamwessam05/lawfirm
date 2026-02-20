@@ -14,7 +14,13 @@ import abt3 from "../assets/abt03.svg"
 import MissionCard from '../components/missioncard/missioncard';
 import vision from "../assets/vision.svg"
 import mission from "../assets/mission.svg" 
-
+import area1 from "../assets/area01.svg"
+import area2 from "../assets/area02.svg"
+import area3 from "../assets/area03.svg"
+import area4 from "../assets/area04.svg"
+import area5 from "../assets/area05.svg"
+import area6 from "../assets/area06.svg"
+import AreaCard from '../components/areacard/areacard';
 
 const Home = () => {
     const [dark, setDark] = useState(
@@ -72,6 +78,19 @@ const Home = () => {
             <section className="section3">
                 <MissionCard style="miscard" titleStyle="mistitle" img={mission} title="Mission" desc="To provide exceptional legal services with integrity, professionalism, and a commitment to achieving the best outcomes for our clients." />
                 <MissionCard style="miscardy" titleStyle="mistitley" img={vision} title="Vision" desc="To be the leading law firm known for excellence, innovation, and client satisfaction in the legal industry." />
+            </section>
+
+            <section className="section4">
+                <Title subtitle="Comprehensive Legal Solutions" title="Practice Areas" />
+
+                <div className="areacards">
+                    <AreaCard img={area1} title="Corporate Law" desc="Expert legal counsel for businesses, including contracts, mergers, and compliance." />
+                    <AreaCard img={area2} title="Family Law" desc="Compassionate legal support for divorce, child custody, and family matters." />
+                    <AreaCard img={area3} title="Criminal Defense" desc="Aggressive representation for individuals facing criminal charges and family matters." />
+                    <AreaCard img={area4} title="Real Estate Law" desc="Specialized legal services for property transactions and disputes compliance.." />
+                    <AreaCard img={area5} title="Intellectual Property" desc="Protection and enforcement of patents, trademarks, and copyrights." />
+                    <AreaCard img={area6} title="Immigration Law" desc="Guidance for individuals navigating immigration processes and visa applications." />
+                </div>
             </section>
         
         </>
