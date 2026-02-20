@@ -7,6 +7,7 @@
     --cardbg: #fff;
     --miscardbg: linear-gradient(180deg, #1E3A5F 0%, #2D4A6F 100%);
     --backgroundsec : #ffffff;
+    --inputborder:  0.8px solid #D1D5DC;
 
 
 }
@@ -21,7 +22,7 @@
     --cardbg: #2a2a2a;
     --miscardbg: linear-gradient(180deg, #1A1A1A 0%, #2A2A2A 100%);
     --backgroundsec : #000000;
-
+    --inputborder:0.8px solid #32353a;
 ;
 
 
@@ -226,4 +227,30 @@ gap: 20px;
 align-self: stretch;
 flex-wrap: wrap;
 justify-content: center;
+}
+
+.contact{
+    display: flex;
+padding: 50px 76px;
+flex-direction: column;
+align-items: flex-start;
+gap: 48px;
+align-self: stretch;
+}
+
+form{
+    display: flex;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+flex: 1 0 0;
+gap: 24px;
+width: 40%;
+border-radius: 16px;
+background: var(--cardbg);
+box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.10);
+}
+
+.conform{
+    width: 100%;
 }

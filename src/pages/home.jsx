@@ -26,6 +26,7 @@ import team2 from "../assets/team02.png"
 import team3 from "../assets/team03.png"
 import team4 from "../assets/team04.png"
 import Teamcard from '../components/teamcard/teamcard';
+import Input from '../components/input/input';
 
 
 
@@ -110,6 +111,20 @@ const Home = () => {
                     <Teamcard img={team2} name="Jane Smith" role="Associate Attorney" />
                     <Teamcard img={team3} name="Michael Johnson" role="Litigation Specialist" />
                     <Teamcard img={team4} name="Emily Davis" role="Corporate Law Expert" />
+                </div>
+            </section>
+
+            <section className="contact">
+                <Title subtitle="Get in Touch with Us" title="Contact Us" />
+                <div className="conform">
+                    <form action="">
+                        <Input label="Full Name *" />
+                        <Input label="Email Address *" />
+                        <Input label="Phone Number *" />
+                        <Input label="Subject *" />
+                        <Input label="Message " style="message" />
+                        <Yellowbtn text="Submit" />
+                    </form>
                 </div>
             </section>
 
