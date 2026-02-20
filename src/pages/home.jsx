@@ -138,6 +138,15 @@ const Home = () => {
                             <FormLink img={formlink4} title="Hours" subtitle="Mon-Fri: 9:00 AM - 6:00 PM" />
                         </div>
 
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=..."
+                            width="100%"
+                            height="400"
+                            style={{ border: 0, borderRadius: 15 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                        ></iframe>
+
                     </div>
                 </div>
             </section>

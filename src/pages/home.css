@@ -268,3 +268,10 @@ gap: 24px;
 flex-shrink: 0;
 align-self: stretch;
 }
+
+.linkloc{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
