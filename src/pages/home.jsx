@@ -5,6 +5,8 @@ import heroBg from "../assets/heroimg.png"
 import { useState, useEffect } from "react";
 import Yellowbtn from '../components/yelowbtn/yellowbtn';
 import call from "../assets/call.svg"
+import Title from '../components/title/title';
+import sec2img from "../assets/sec2img.png"
 
 
 const Home = () => {
@@ -46,7 +48,13 @@ const Home = () => {
             </section>
 
             <section className="section2">
-                
+                <Title subtitle="Excellence in Legal Practice" title="About Our Firm" />
+                <div className="sec2img">
+                    <img src={sec2img} alt="sec2img" />
+                    <div className="sec2imgtxt">
+                        <p>Founded in 1999, our law firm has built a reputation for delivering exceptional legal services across multiple practice areas. Our team of experienced attorneys is dedicated to protecting your rights and achieving the best possible outcomes for our clients.</p>
+                    </div>
+                </div>
             </section>
         
         </>

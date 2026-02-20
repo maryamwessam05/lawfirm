@@ -5,6 +5,8 @@ import "./title.css";
 const Title = (props) => {
     return ( 
         <>
+        <div className="titletxt">
+
             <span>
                 {props.subtitle}
             </span>
@@ -12,6 +14,7 @@ const Title = (props) => {
                 {props.title}
             </h1>
             <hr />
+        </div>
         
         </>
      );
