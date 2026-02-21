@@ -32,7 +32,9 @@ import formlink2 from "../assets/formlink02.svg"
 import formlink3 from "../assets/formlink03.svg"
 import formlink4 from "../assets/formlink04.svg"
 import FormLink from '../components/formlink/formlink';
-
+import logo from "../assets/logod.svg"
+import footericons from "../assets/footericon.svg"
+import Footercol from '../components/footercol/footercol';
 
 
 
@@ -150,6 +152,18 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            <footer>
+                <div className="columns">
+                <div className="col1">
+                    <img src={logo} alt="Footer Logo" />
+                    <p>Trusted legal excellence with over 25 years of experience serving clients with integrity and dedication.</p>
+                    <img src={footericons} alt="/" />
+                </div>
+                <Footercol title="Quick Links" link1="Home" link2="About Us" link3="Services" link4="Our Team" link5="Contact Us" />
+
+                </div>
+            </footer>
 
         
         </>

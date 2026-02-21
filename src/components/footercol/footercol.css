@@ -1,0 +1,15 @@
+.footercol{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 19px;
+align-self: stretch;
+}
+
+.footerlinks{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+align-self: stretch;
+}

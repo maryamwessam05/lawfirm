@@ -1,0 +1,16 @@
+span{
+    margin: 0;
+    color: #D1D5DC;
+text-align: center;
+font-family: Arial;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+transition: all 0.3s ease-in-out;
+cursor: pointer;
+}
+
+span:hover{
+    text-decoration: underline;
+}
