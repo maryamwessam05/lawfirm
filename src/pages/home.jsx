@@ -35,6 +35,11 @@ import FormLink from '../components/formlink/formlink';
 import logo from "../assets/logod.svg"
 import footericons from "../assets/footericon.svg"
 import Footercol from '../components/footercol/footercol';
+import Footertitle from '../components/footertitle/footertitle';
+import conlink1 from "../assets/conlink01.svg"
+import conlink2 from "../assets/conlink02.svg"
+import conlink3 from "../assets/conlink03.svg"
+import Contactlink from '../components/contactlink/contactlink';
 
 
 
@@ -160,8 +165,19 @@ const Home = () => {
                     <p>Trusted legal excellence with over 25 years of experience serving clients with integrity and dedication.</p>
                     <img src={footericons} alt="/" />
                 </div>
+
                 <Footercol title="Quick Links" link1="Home" link2="About Us" link3="Services" link4="Our Team" link5="Contact Us" />
 
+                <Footercol title="Practice Areas" link1="Corporate Law" link2="Family Law" link3="Criminal Defense" link4="Real Estate Law" link5="Intellectual Property" />
+
+                <div className="confooter">
+                    <Footertitle title="Contact Information" />
+                    <div className="confirmation">
+                        <Contactlink img={conlink1} link="123 Justice Street, Legal District, NY 10001" />
+                        <Contactlink img={conlink2} link="+1 (555) 123-4567" />
+                        <Contactlink img={conlink3} link="info@lawfirm.com" />
+                    </div>
+                </div>
                 </div>
             </footer>
 
