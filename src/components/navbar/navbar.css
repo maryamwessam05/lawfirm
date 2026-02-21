@@ -45,4 +45,42 @@ gap: 16px;
 
 .logol{
     display: var(--darkicon);
+
+
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px){
+    .nav-links{
+        display: none;
+    }
+    .navbar{
+        padding: 16px 22px;
+    }
+    .logod{
+  
+    width: 17vw;
+}
+
+.logol{
+
+    width: 17vw;
+
+}
+
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+
+
+    .nav-links{
+        display: none;
+    }
+    .navbar{
+        padding: 16px 22px;
+    }
+    .logod ,.logol{
+  
+    width: 26vw;
+}
 }

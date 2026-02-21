@@ -182,6 +182,7 @@ line-height: 22px; /* 122.222% */
     display: flex;
 align-items: center;
 gap: 24px;
+flex-wrap: wrap;
 align-self: stretch;
 justify-content: center;}
 
@@ -332,3 +333,203 @@ gap: 19px;
 align-self: stretch;
 }
 
+@media (min-width: 600px) and (max-width: 1024px){
+
+    .herosection{
+        flex-direction: column;
+        padding: 40px;
+        height: auto;
+    }
+
+    .herotxt{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sec2img{
+        flex-direction: column;
+    }
+
+    .sec2imgtxt{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section3{
+        display: flex;
+        
+        flex-direction: column;
+        padding: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section4 {
+        padding: 40px 20px;
+    }
+
+    .call{
+        justify-content: center;
+    }
+
+    .contact{
+        padding: 40px;
+    }
+
+    .conform{
+        flex-direction: column;
+    }
+    form{
+        width: 100%;
+    }
+
+    .linkloc{
+        width: 100%;
+    }
+    footer{
+        padding: 40px;
+    }
+    .columns{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .col1{
+        width: 100%;
+       
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+
+    .herosection{
+        flex-direction: column;
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .herotxt{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sec2img{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sec2img img{
+        width: 100%;
+    }
+
+    .sec2imgtxt{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section3{
+        display: flex;
+        
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .section2{
+        padding: 20px;
+    }
+    .section4 {
+        padding: 20px;
+    }
+
+    .call{
+        justify-content: center;
+    }
+
+    .contact{
+        padding: 20px;
+    }
+
+    .conform{
+        flex-direction: column;
+    }
+    form{
+        width: 100%;
+    }
+
+    .linkloc{
+        width: 100%;
+    }
+
+    .herotxt h1{
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+     .calltxt h1{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+     .calltxt span{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+     .sec2imgtxt p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+     .serv{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 28px;
+    }
+
+     .section5{
+        padding: 20px 0;
+    }
+
+     .section4 h1{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+     .aboutcards{
+        gap: 16px;
+    }
+
+     .areacards{
+        gap: 21px;
+    }
+
+     .teamgrid{
+        gap: 16px;
+    }
+
+    .herotxt p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    footer{
+        padding: 20px;
+    }
+
+    .columns{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .col1{
+        width: 100%;
+       
+    }
+
+
+}

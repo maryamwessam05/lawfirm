@@ -6,7 +6,7 @@
 
 .yellowbtn{
     display: flex;
-padding: 10.2px 31.45px 13.8px 33px;
+padding: 10px 33px;
 justify-content: center;
 align-items: center;
 border-radius: 8px;
@@ -28,4 +28,11 @@ cursor: pointer;
     opacity: 0.8;
     cursor: pointer;
     scale: 1.05;
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+    .yellowbtn{
+        padding: 7px 10px;
+        font-size: 12px;
+    }
 }

@@ -41,3 +41,10 @@ line-height: 20px; /* 142.857% */
     transition: 0.3s ease-in-out;
 box-shadow: 0 4px 11.3px -1px #B89852;
 }
+
+
+@media (min-width: 300px) and (max-width: 600px){
+    .aboutcard img{
+        width: 13vw;
+    }
+}
