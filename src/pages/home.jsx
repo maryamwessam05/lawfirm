@@ -40,7 +40,7 @@ import conlink1 from "../assets/conlink01.svg"
 import conlink2 from "../assets/conlink02.svg"
 import conlink3 from "../assets/conlink03.svg"
 import Contactlink from '../components/contactlink/contactlink';
-
+import top from "../assets/top.svg"
 
 
 const Home = () => {
@@ -56,11 +56,22 @@ const Home = () => {
       document.body.classList.remove("dark-theme");
       localStorage.setItem("theme", "light");
     }
-  }, [dark]);
+  }, [dark])
+  
+  const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+};
+  
+  ;
 
     
     return ( 
         <>
+            <img onClick={scrollToTop} src={top} alt="/" className='top' />
+
             <Navbar toggleTheme={() => setDark(!dark)} />
             
             <section className="herosection" style={{ backgroundImage: `url(${heroBg})` }}>
